@@ -1,5 +1,5 @@
 <template>
-   <div id="">
+   <div id="micro-app-report">
      <router-view :key="(new Date()).getTime()" />
    </div>
 </template>

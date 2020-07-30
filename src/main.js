@@ -42,7 +42,7 @@ function render (porps) {
     router,
     store,
     render: (h) => h(App)
-  }).$mount('#')
+  }).$mount('#micro-app-report')
 }
 
 // 独立运行时，直接挂载应用
