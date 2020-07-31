@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 import './public-path'
 import App from './App.vue'
+// eslint-disable-next-line no-unused-vars
 import { routes, beforeEach, beforeResolve, afterEach, onError, onReady } from './routes'
 import store from './store'
 const MICRO_NAME = 'MicroAppReport'
